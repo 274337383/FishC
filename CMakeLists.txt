@@ -3,4 +3,4 @@ project(FishC C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(FishC sle22/test4.c)
+add_executable(FishC sle23/test.c)
