@@ -4,11 +4,11 @@ int main() {
 	int a;
 	int *p = &a;
 
-	printf("è¯·è¾“å…¥æ•´æ•°:");
+	printf("ÇëÊäÈëÕûÊı:");
 	scanf("%d", &a);
 	printf("a = %d\n",a);
 
-	printf("è¯·é‡æ–°è¾“å…¥ä¸€ä¸ªæ•´æ•°:");
+	printf("ÇëÖØĞÂÊäÈëÒ»¸öÕûÊı:");
 	scanf("%d", p);
 	printf("a = %d\n", a);
 	return 0;

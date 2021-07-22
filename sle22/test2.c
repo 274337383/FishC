@@ -2,12 +2,12 @@
 
 int main() {
 	char str[128];
-	printf("æˆ‘çš„åŸŸåæ˜¯:");
+	printf("ÎÒµÄÓòÃûÊÇ:");
 	scanf("%s", str);
 
-	//printf("æˆ‘çš„åŸŸåæ˜¯%s\n", str);
-	printf("æˆ‘çš„åŸŸåæ˜¯%p\n", str);
-	printf("æˆ‘çš„åŸŸåæ˜¯%p\n", &str[0]);
+	printf("ÎÒµÄÓòÃûÊÇ%s\n", str);
+	printf("ÄÚ´æµØÖ·ÊÇ%p\n", str);
+	printf("ÄÚ´æµØÖ·ÊÇ%p\n", &str[0]);
 
 	return 0;
 }
