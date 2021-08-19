@@ -10,7 +10,7 @@ int main()
         count++;
     }
 
-    printf("您总共输入了%i个字符", count);
+    printf("您总共输入了%i个字符", count/2);
 
     return 0;
 }
