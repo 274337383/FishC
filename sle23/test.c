@@ -4,13 +4,13 @@ int main()
 {
     int count = 0;
 
-    printf("ÇëÊäÈë×Ö·û´®:");
+    printf("è¯·è¾“å…¥å­—ç¬¦ä¸²:");
 
     while (getchar() != '\n') {
         count++;
     }
 
-    printf("Äú×Ü¹²ÊäÈëÁË%i¸ö×Ö·û", count/2);
+    printf("æ‚¨æ€»å…±è¾“å…¥äº†%iä¸ªå­—ç¬¦", count/2);
 
     return 0;
 }
