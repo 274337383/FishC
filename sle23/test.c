@@ -2,15 +2,19 @@
 
 int main()
 {
-    int count = 0;
+    int a[4][5] = {
+            {80,92,85,86,99},
+            {78,65,89,70,99},
+            {67,78,76,89,99},
+            {88,68,98,90,99}
+    };
 
-    printf("请输入字符串:");
-
-    while (getchar() != '\n') {
-        count++;
+    for (int i = 0; i < 5; ++i) {
+        for (int j = 0; j < 4; ++j) {
+            printf("%d ", a[j][i]);
+        }
+        printf("\n");
     }
-
-    printf("您总共输入了%i个字符", count/2);
 
     return 0;
 }
