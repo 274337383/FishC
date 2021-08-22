@@ -1,25 +1,15 @@
 #include <stdio.h>
+#include <string.h>
 
-int addArray( int *array, int n );
+int main(){
+    char *str = "I Love FishC.com!";
+    int i,length;
 
-int main()
-{
-    int data[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int size = sizeof(data) / sizeof(data[0]);
+    length = strlen(str);
 
-    printf("½á¹ûÊÇ:%d\n", addArray( data, size));
-
-    return 0;
-}
-
-int addArray( int *array, int n)
-{
-    int sum = 0;
-    int i;
-
-    for (int i = 0; i < n; i++) {
-        sum += *array++;
+    for (i = 0; i < length; i++){
+        printf("%c", str[i]);
     }
-
-    return sum;
+    printf("\n");
+    return 0;
 }
