@@ -3,5 +3,6 @@ project(FishC C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Fish topic/Complete_square.c)
-add_executable(Fishs sle23/test3.c)
+add_executable(Fish1 test.c test1.c)
+add_executable(Fish2 main1.c)
+add_executable(test test/test.c)

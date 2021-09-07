@@ -4,7 +4,7 @@ int main()
 {
     double i;
     double bonus1, bonus2, bonus4, bonus6, bonus10, bonus;
-    printf("ÄãµÄ¾»ÀûÈóÊÇ:\n");
+    printf("ä½ çš„å‡€åˆ©æ¶¦æ˜¯:\n");
     scanf("%lf",&i);
     bonus1=100000*0.1;
     bonus2=bonus1+100000*0.075;
@@ -24,7 +24,7 @@ int main()
     } else if (i>1000000) {
         bonus = bonus10+(i-1000000)*0.01;
     }
-    printf("ÄúµÄÌá³ÉÎª%lf\n", bonus);
+    printf("æ‚¨çš„ææˆä¸º%lf\n", bonus);
 
     printf("\n");
 }
